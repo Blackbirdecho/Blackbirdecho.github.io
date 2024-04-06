@@ -7,6 +7,21 @@
   padding: 0;
 }
 
+@keyframes moveBackground {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 100%; }
+}
+
+body {
+  /* Adjust the URL to point to your code-related background image */
+  background-image: url('./assets/code-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moveBackground 20s linear infinite;
+}
+
+
+
 body {
   font-family: "Poppins", sans-serif;
 }
